@@ -34,15 +34,13 @@ Erfasst werden die letzten 25 Jahre aus zwei zentralen Eventtypen:
 
 Die Erhebung erfolgt durch systematische Extraktion der Podestlisten, Trainerangaben und Vereinszugehörigkeiten. Der Aufwand ist moderat, da die Daten strukturiert vorliegen.
 
-[Codebuch]: (https://github.com/silke2211/Skispringen/blob/main/Codebuch_Skispringen.csv?plain=1)
-
+Link zum Codebuch: https://github.com/silke2211/Skispringen/blob/main/Codebuch_Skispringen.csv?plain=1
 
 5) Beispieldaten (Edge- und Nodelist auf github)
 
-[Edgelist]: (https://github.com/silke2211/Skispringen/blob/main/Edgelist_Skispringen.csv)
+Link zur Edgelist: https://github.com/silke2211/Skispringen/blob/main/Edgelist_Skispringen.csv
 
-[Nodelist]: (https://github.com/silke2211/Skispringen/blob/main/Nodelist_Skispringen.csv)
-
+Link zur Nodelist: https://github.com/silke2211/Skispringen/blob/main/Nodelist_Skispringen.csv
 
 6) Mögliche Probleme und Herausforderungen
 
