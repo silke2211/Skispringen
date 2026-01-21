@@ -21,7 +21,7 @@ Die Edgelist definiert die Beziehungen (Kanten) zwischen den einzelnen Akteuren.
 | | `7` = Athlet → Event |
 | | `8` = Trainer → Event |
 | **weight** | Anzahl/Art der Erfolge: <br> `1` = 1. Platz, `2` = 2. Platz, `3` = 3. Platz, `4` = kein Podium |
-| **event** | Art des Wettbewerbs: <br> `wc` = Weltcup, `vst` = Vierschanzentournee, `oly` = Olympische Winterspiele |
+| **event** | Art des Wettbewerbs: <br> `vst` = Vierschanzentournee, `oly` = Olympische Winterspiele |
 | **year** | Jahr der Teilnahme am Wettbewerb. |
 
 ---
