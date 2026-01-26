@@ -1,5 +1,5 @@
 from,to,relation,weight,event,year
-aw,jh,4,2,VST,2025_26
+aw,jh,4,VST,2025_26
 sh,pr,4,,VST,2025_26
 jv,rk,4,,VST,2025_26
 pr,sco,1,,,
@@ -21,3 +21,4 @@ rk,VST,7,1,VST,"2023_24,
 2018_19"
 jv,VST,8,,,
 dt,AUT,2,,,
+
