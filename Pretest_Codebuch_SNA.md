@@ -3,8 +3,25 @@
 Dieses Dokument beschreibt die Struktur und die Variablen für die Erfassung des Netzwerks.
 
 ---
+## 1. Nodelist
+Die Nodelist beschreibt die Eigenschaften der einzelnen Knoten (Akteure/Organisationen).
 
-## 1. Edgelist
+| Variable | Beschreibung |
+| :--- | :--- |
+| **id** | Eindeutige Identifikation jedes einzelnen Knotens (Vertex). |
+| **name** | Name oder Bezeichnung des Knotens. |
+| **type** | Typ des Akteurs: <br> `1` = Athlet, `2` = Trainer, `3` = Verein, `4` = Nation, `5` = Event |
+| **country** | Staatsangehörigkeit bzw. Land, für das gestartet wird (z.B. `NOR` für Norwegen). |
+| **team** | Verein des Athleten oder Trainers. |
+| **debut_year** | Jahr des Karrierestarts. |
+| **last_year** | Jahr des Karriereendes. |
+| **active** | Gibt an, ob der Athlet/Trainer aktuell noch aktiv ist. |
+| **year_birth** | Geburtsjahr. |
+| **NA** | Fehlende Werte: Feld leer lassen. R erkennt diese automatisch als *missing values*. |
+
+---
+
+## 2. Edgelist
 Die Edgelist definiert die Beziehungen (Kanten) zwischen den einzelnen Akteuren.
 
 | Variable | Beschreibung |
@@ -23,24 +40,6 @@ Die Edgelist definiert die Beziehungen (Kanten) zwischen den einzelnen Akteuren.
 | **weight** | Anzahl/Art der Erfolge: <br> `1` = 1. Platz, `2` = 2. Platz, `3` = 3. Platz, `4` = kein Podium |
 | **event** | Art des Wettbewerbs: <br> `vst` = Vierschanzentournee, `oly` = Olympische Winterspiele |
 | **year** | Jahr der Teilnahme am Wettbewerb. |
-
----
-
-## 2. Nodelist
-Die Nodelist beschreibt die Eigenschaften der einzelnen Knoten (Akteure/Organisationen).
-
-| Variable | Beschreibung |
-| :--- | :--- |
-| **id** | Eindeutige Identifikation jedes einzelnen Knotens (Vertex). |
-| **name** | Name oder Bezeichnung des Knotens. |
-| **type** | Typ des Akteurs: <br> `1` = Athlet, `2` = Trainer, `3` = Verein, `4` = Nation, `5` = Event |
-| **country** | Staatsangehörigkeit bzw. Land, für das gestartet wird (z.B. `NOR` für Norwegen). |
-| **team** | Verein des Athleten oder Trainers. |
-| **debut_year** | Jahr des Karrierestarts. |
-| **last_year** | Jahr des Karriereendes. |
-| **active** | Gibt an, ob der Athlet/Trainer aktuell noch aktiv ist. |
-| **year_birth** | Geburtsjahr. |
-| **NA** | Fehlende Werte: Feld leer lassen. R erkennt diese automatisch als *missing values*. |
 
 ---
 
