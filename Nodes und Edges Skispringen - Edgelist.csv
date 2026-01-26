@@ -1,0 +1,25 @@
+from,to,relation,weight,event,year
+Vierschanzentournee 25/26,,,,,
+,,,,,
+aw,jh,4,,VST,2025_26
+sh,pr,4,,VST,2025_26
+jv,rk,4,,VST,2025_26
+pr,sco,1,,,
+dp,VST,7,1,VST,2025_26
+dp,SLO,2,,,
+sh,VST,8,,VST,2025_26
+dp,skt,1,,,
+jh,AUT,2,,,
+sh,AUT,3,,,
+sh,scw,6,,,
+se,ksc,1,,,
+se,AUT,2,,,
+jv,FIN,3,,,
+sco,GER,5,,,
+svib,AUT,5,,,
+jv,ph,6,,,
+rk,VST,7,1,VST,"2023_24, 
+2021_22, 
+2018_19"
+jv,VST,8,,,
+dt,AUT,2,,,
