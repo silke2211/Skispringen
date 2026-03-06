@@ -11,10 +11,11 @@ Die Nodelist beschreibt die Eigenschaften der einzelnen Knoten (Akteure/Organisa
 | **id** | Eindeutige Identifikation jedes einzelnen Knotens (Vertex). |
 | **name** | Name oder Bezeichnung des Knotens. |
 | **type** | Typ des Akteurs: <br> `1` = Athlet, `2` = Trainer, `3` = Verein, `4` = Nation, `5` = Event |
-| **country** | Staatsangehörigkeit bzw. Land, für das gestartet wird (z.B. `NOR` für Norwegen). |
+| **country** |Land, für das gestartet wird. |
+| **nationality** | Staatsangehörigkeit des Athleten/Trainer. |
 | **team** | Verein des Athleten oder Trainers. |
-| **debut_year** | Jahr des Karrierestarts. |
-| **last_year** | Jahr des Karriereendes. |
+| **debut_year** | Athleten: Jahr des Karrierestarts.<br> Trainer: Jahr, indem sie das erste mal eine Nationalmannschaft trainiert haben. |
+| **last_year** | Athleten: Jahr des Karriereendes.<br> Trainer: Jahr, indem sie zum letzten mal eine Nationalmannschaft trainiert haben. |
 | **active** | Gibt an, ob der Athlet/Trainer aktuell noch aktiv ist. |
 | **year_birth** | Geburtsjahr. |
 | **NA** | Fehlende Werte: Feld leer lassen. R erkennt diese automatisch als *missing values*. |
