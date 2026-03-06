@@ -1,14 +1,11 @@
 # Codebuch: Skispringen
 
-Dieses Dokument beschreibt die Struktur und die Variablen für die Erfassung des Netzwerks.
-
 ---
 ## 1. Nodelist
-Die Nodelist beschreibt die Eigenschaften der einzelnen Knoten (Akteure/Organisationen).
 
 | Variable | Beschreibung |
 | :--- | :--- |
-| **id** | Eindeutige Identifikation jedes einzelnen Knotens (Vertex). |
+| **id** | Eindeutige Identifikation jedes einzelnen Knotens. |
 | **name** | Name oder Bezeichnung des Knotens. |
 | **type** | Typ des Akteurs: <br> `1` = Athlet, `2` = Trainer, `3` = Verein, `4` = Nation, `5` = Event |
 | **country** |Land, für das gestartet wird. |
@@ -18,18 +15,17 @@ Die Nodelist beschreibt die Eigenschaften der einzelnen Knoten (Akteure/Organisa
 | **last_year** | Athleten: Jahr des Karriereendes.<br> Trainer: Jahr, indem sie zum letzten mal eine Nationalmannschaft trainiert haben. |
 | **active** | Gibt an, ob der Athlet/Trainer aktuell noch aktiv ist. |
 | **year_birth** | Geburtsjahr. |
-| **NA** | Fehlende Werte: Feld leer lassen. R erkennt diese automatisch als *missing values*. |
+| **NA** | Fehlende Werte |
 
 ---
 
 ## 2. Edgelist
-Die Edgelist definiert die Beziehungen (Kanten) zwischen den einzelnen Akteuren.
 
 | Variable | Beschreibung |
 | :--- | :--- |
-| **from** | Sender in gerichteten Netzwerken. Entspricht der **ID** in der Nodelist. (Keine Sonderzeichen, ein Wort). |
+| **from** | Sender in gerichteten Netzwerken. Entspricht der **ID** in der Nodelist. |
 | **to** | Empfänger in Netzwerken. Entspricht der **ID** in der Nodelist. |
-| **relation** | Art der Beziehung (Kantenstärke) basierend auf folgenden Skalen: |
+| **relation** | Art der Beziehung basierend auf folgenden Skalen: |
 | | `1` = Athlet → Verein |
 | | `2` = Athlet → Nation |
 | | `3` = Trainer → Nation |
