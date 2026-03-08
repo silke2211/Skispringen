@@ -99,10 +99,10 @@ pp79,Primoz Peterka,1,Slowenian,SK Triglav Kranj,1996,2011,no,1979
 aa80,Alan Alborn,1,American,Alaska Jumping Club,1998,2007,no,1980
 pz79,Peter Zonta,1,Slowenian,SK Dolomiti Ljubljana,1995,2007,no,1979
 mk82,Martin Koch,1,Austrian,SV Villach,1998,2014,no,1982
-ak79,Andreas Kuettel,1,Switzerland,SC Einsiedeln,1995,2011,no,1979
-mn,Michael Neumayer,1,Germany,SC Oberstdorf,2000,2016,no,1979
-dv,Dmitri Vassiliev,1,Russia,CSKA Lokomotiva Ufa,1998,2021,no,1979
-mm80,Michael Moellinger,1,Switzerland,SC Einsiedeln,1999,2008,no,1980
+ak79,Andreas Kuettel,1,Swiss,SC Einsiedeln,1995,2011,no,1979
+mn,Michael Neumayer,1,German,SC Oberstdorf,2000,2016,no,1979
+dv,Dmitri Vassiliev,1,Russian,CSKA Lokomotiva Ufa,1998,2021,no,1979
+mm80,Michael Moellinger,1,Swiss,SC Einsiedeln,1999,2008,no,1980
 mh68,Masahiko Harada,1,Japanese,Snow Brand,1987,2006,no,1968
 hm,Hideharu Miyahira,1,Japanese,Mizuno,1994,2006,no,1973
 sh69,Stefan Horngacher,1,Austrian,SC Woergl,1988,2002,no,1969
@@ -117,7 +117,7 @@ ep,Evgeniy Plekhov,2,Russian,GBU TSOVS Moskovskaya obl MBU SSHOR,2018,NA,no,1982
 jv,Janne Vaeaetaeinnen,2,Finnish,Puijon Hiihtoseura,2008,NA,no,1975
 ws69,Werner Schuster,2,Austrian,SC Woergl,2008,2019,no,1969
 hk,Heinz Kuttin,2,Austrian,SV Villach,2014,2018,no,1971
-es,Emil Sografski,2,Bulgaria,ZSKA Sofia,2025,NA,yes,1969
+es,Emil Sografski,2,Bulgarian,ZSKA Sofia,2025,NA,yes,1969
 ty,Tomoharu Yokokawa,2,Japanese,NA,2010,2018,no,1966
 rh75,Ronny Hornschuh,2,German,SC Motor Zella Mehlis,2019,2023,no,1975
 mz,Matjaz Zupan,2,Slovenian,SK Triglav Kranj,1999,2018,no,1966
@@ -274,4 +274,5 @@ oly18,Olympische Winterspiele 2018,5,NA,NA,NA,NA,NA,NA
 oly14,Olympische Winterspiele 2014,5,NA,NA,NA,NA,NA,NA
 oly10,Olympische Winterspiele 2010,5,NA,NA,NA,NA,NA,NA
 oly06,Olympische Winterspiele 2006,5,NA,NA,NA,NA,NA,NA
+
 oly02,Olympische Winterspiele 2002,5,NA,NA,NA,NA,NA,NA
