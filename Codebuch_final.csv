@@ -1,0 +1,125 @@
+CODEBUCH,,
+,,
+Wert,Kommentar,
+edgelist,,
+from,"definiert den Sender in gerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, nur ein Wort",
+to ,"definiert den Empfänger in ungerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, etc. ",
+relation,"Ausprägung der Kantenstärke (Beziehungsstärke), definiert nach vorgegeben Skalen.",
+,1 = Athlet → Verein,
+,2 = Athlet → Nation,
+,3 = Trainer → Nation,
+,4 = Trainer→ Athlet,
+,5 = Verein -->  Nation ,
+,6 = Trainer → Verein ,
+,7= Athlet --> Event,
+,8 = Trainer --> Event,
+,9 = Verein --> Region,
+,10 = Region --> Land,
+,,
+weight,Anzahl Erfolge ,
+,1= kein Podium,
+,2= 3. Platz,
+,3= 2. Platz,
+,4= 1. Platz,
+,,
+event,Art des Wettbewerbs,
+,wc= World Championship,
+,oly= Olympische Winterspiele (Normalschanze),
+year,Jahr der Teilnahme an Wettbewerb,
+,,
+nodelist,,
+id,"eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird.  ",
+name,Name oder Bezeichnung des Knotens. ,
+type,Unterscheidung der Akteure/Organisationen,
+,1 = Athlet,
+,2 = Trainer,
+,3 = Verein,
+,4 = Nation,
+,5= Event,
+,6=Region,
+country,für welches Land tritt Athlet an (nur für Athleten/Trainer) ,
+nationality,Staatsangehörigkeit,
+team,aus welchem Verein kommt Athlet/Trainer,
+debut_year,"Jahr, in welchem Athlet angefangen hat",
+last_year,"Jahr, in welchem Athlet aufgehört hat",
+active,zeigt ob Athlet/Trainer gerade aktiv springt,
+year_birth,Geburtsjahr der Athleten/Trainer,
+NA,"definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus..",
+,,
+,,
+"Hinweis zu nicht berücksichtigten Fällen: 
+- Pausen von Athleten bei Wettbewerben werden nicht berücksichtigt. Dokumentiert werden nur der Beginn und das Ende der Karriere.
+- Disqualifikationen (Im Vorhinein und im Nachhinein wegen Doping, etc.)
+- Nichtqualifikationen für Olympia
+- Anmeldungen, aber keine Teilnahme an Wettkampf",,
+,,
+"Wichtig zu beachten:
+- Vereinsumbenennungen: Aktueller Name, dann ZWEI Unterstriche und dann den damaligen Namen
+- Vereinsfusionierungen: Dann werden die beiden Vereine erst wie normal als zwei Vereine erhoben. Nach der Fusionierung mit EINEM Unterstrich
+- Gleiche Kürzel: Dann wird bei beiden Kürzeln die letzten beiden Ziffern vom Geburtsjahr genommen, also Beispiel: em05, und em06. Für den Fall, dass das Geburtsjahr gleich ist, dann em05a, und em06b
+- Bei Olympia: Wenn beide Springer auf dem gleichen Platz sind, dann werden beide der Position zugeordnet",,
+"-Trainer, die auch Springer waren:  erden doppelt angelegt und bekommen einmal den Zusatz t für Trainer und s für Springer",,
+,,
+DOPPELTE KÜRZEL,,
+aa80,Alan Alborn,Springer
+aa95,Antti Aalto,Springer
+af62,Andreas Felder,Trainer
+af91,Anders Fannemel,Springer
+ak79,Andreas Kuettel,Springer
+ak84,Andreas Kofler,Springer
+ak88,Anssi Koivuranta,Springer
+al56,Alois Lipburger,Trainer
+al84,Arttu Lappi,Springer
+al96,Anze Lanisek,Springer
+as73,Alexander Stöckl,Trainer
+as88,Andreas Stjernen,Springer
+as,Ari Saukko,Trainer
+aw76,Andreas Wildhölzer,Trainer
+aw88,Andreas Wank,Springer
+aw95,Andreas Wellinger,Springer
+di84,Dimitry Ipatov,Springer
+di85,Daiki Ito,Springer
+dt02,Daniel Tschofenig,Springer
+dt94,Daniel Andre Tande,Springer
+gs81,Georg Spaeth,Springer
+gs90,Gregor Schlierer,Springer
+jh79,Jussi Hautamaeki,Springer
+jh98,Jan Hoerl,Springer
+ks87,Kamil Stoch,Springer
+ks90,Kento Sakuyama,Trainer
+lk75,Lukasz Kruczek,Trainer
+lk99,Lovro Kos,Springer
+mh68,Masahiko Harada ,Trainer
+mh74,Martin Hoellwarth,Springer
+mh81,Matti Hautamaeki,Springer
+mh91,Michael Hayboeck,Springer
+mk63,Mika Kojonkoski,Trainer
+mk80,Martin Künzler,Trainer
+mk82,Martin Koch,Springer
+mk91a,Maciej Kot,Springer
+mk91b,Marinus Kraus,Springer
+pp79,Primoz Peterka,Springer
+pp90,Pius Paschke,Springer
+pp92,Peter Prevc,Springer
+pr00,Philipp Raimund,Springer
+pr62,Peter Rohwein,Trainer
+pz87,Piotr Zyla,Springer
+pz79,Peter Zonta,Springer
+rh45,Reinhard Hess,Trainer
+rh75,Ronny Hornschuh,Trainer
+rh88,Robert Hrgota,Trainer
+rj75,Risto Jussilainen,Springer
+rj90,Robert Johansson,Springer
+rk89,Roman Koudelka,Springer
+rk81,Robert Kranjec,Springer
+rk96,Ryoyu Kobayashi,Springer
+sh69,Stefan Horngacher,"Trainer, Springer"
+sh74,Sven Hannawald,Springer
+sh86,Stefan Hula,Springer
+tt87,Taku Takeuchi,Springer
+tt89,Thomas Thurnbichler,Trainer
+vl83,Veli Matti Lindstroem,Springer
+vl90,Ville Larinto,Springer
+ws63,Wolfgang Steiert,Trainer
+ws69,Werner Schuster,Trainer
+ws76,Wojciech Skupien,Springer
