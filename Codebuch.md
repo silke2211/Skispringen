@@ -2,7 +2,6 @@
 
 ## 1. Edgelist 
 
-Die Edgelist beschreibt, wer mit wem in Verbindung steht.
 
 | Variable | Beschreibung |
 | :--- | :--- |
@@ -27,7 +26,6 @@ Die Edgelist beschreibt, wer mit wem in Verbindung steht.
 
 ## 2. Nodelist 
 
-Die Nodelist enthält alle Informationen über die einzelnen Akteure und Organisationen.
 
 | Variable | Beschreibung |
 | :--- | :--- |
