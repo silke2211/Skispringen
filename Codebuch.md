@@ -1,6 +1,6 @@
 # Codebuch: Skispringen
 
-## 1. Edgelist (Beziehungen)
+## 1. Edgelist 
 
 Die Edgelist beschreibt, wer mit wem in Verbindung steht.
 
@@ -8,7 +8,7 @@ Die Edgelist beschreibt, wer mit wem in Verbindung steht.
 | :--- | :--- |
 | **from** | Definiert den Sender in gerichteten Netzwerken. Entspricht der `id` in der Nodelist. Keine Sonderzeichen, nur ein Wort. |
 | **to** | Definiert den Empfänger. Entspricht der `id` in der Nodelist. Keine Sonderzeichen, etc. |
-| **relation** | Art der Beziehung (Beziehungsstärke), definiert nach folgendem Schlüssel: |
+| **relation** | Art der Beziehung, definiert nach folgendem Schlüssel: |
 | | 1 = Athlet → Verein |
 | | 2 = Athlet → Nation |
 | | 3 = Trainer → Nation |
@@ -25,16 +25,16 @@ Die Edgelist beschreibt, wer mit wem in Verbindung steht.
 
 ---
 
-## 2. Nodelist (Knoten)
+## 2. Nodelist 
 
 Die Nodelist enthält alle Informationen über die einzelnen Akteure und Organisationen.
 
 | Variable | Beschreibung |
 | :--- | :--- |
-| **id** | Eindeutige Identifikation jedes einzelnen Knotens (vertex). |
-| **name** | Name oder Bezeichnung des Knotens (Klartext). |
+| **id** | Eindeutige Identifikation jedes einzelnen Knotens. |
+| **name** | Name oder Bezeichnung des Knotens. |
 | **type** | Unterscheidung der Akteure/Organisationen: <br> 1 = Athlet <br> 2 = Trainer <br> 3 = Verein <br> 4 = Nation <br> 5 = Event <br> 6 = Region |
-| **country** | Für welches Land tritt der Athlet/Trainer an (nur für Typ 1 & 2). |
+| **country** | Für welches Land tritt der Athlet/Trainer an. |
 | **nationality** | Staatsangehörigkeit. |
 | **team** | Aus welchem Verein kommt der Athlet/Trainer. |
 | **debut_year** | Jahr, in welchem der Athlet/Trainer angefangen hat. |
