@@ -19,7 +19,7 @@
 | | 9 = Verein → Region |
 | | 10 = Region → Land |
 | **weight** | Ausprägung des Erfolgs: <br> 1 = kein Podium <br> 2 = 3. Platz <br> 3 = 2. Platz <br> 4 = 1. Platz |
-| **event** | Art des Wettbewerbs: <br> `wc` = World Championship <br> `oly` = Olympische Winterspiele (Normalschanze) |
+| **event** | Art des Wettbewerbs: <br> `wc` = World Championship (Normalschanze) <br> `oly` = Olympische Winterspiele (Normalschanze) |
 | **year** | Jahr der Teilnahme am Wettbewerb. |
 
 ---
@@ -29,7 +29,7 @@
 
 | Variable | Beschreibung |
 | :--- | :--- |
-| **id** | Eindeutige Identifikation jedes einzelnen Knotens. |
+| **id** | Eindeutige Identifikation jedes einzelnen Knotens.<br> Die id setzt sich aus dem Anfangsbuchstaben des Vornamen und des Anfangsbuchstaben des Nachnamen der Springer/Trainer zusammen. Wenn sich ids gedoppelt haben, wurden die letzten beiden Ziffern des Geburtsjahres ergänzt. <br> Vereine wurden jeweils durch v_vereinsname gekennzeichnet.<br> Regionen wurden mit r_regionsname gekennzeichnet. <br> Nationen wurden mit dem ISO Code gekennzeichnet.<br> Die Events haben das Kürzel oly und wc erhalten, zusammen mit den letzten beiden Ziffern des Veranstaltungsjahrs.   |
 | **name** | Name oder Bezeichnung des Knotens. |
 | **type** | Unterscheidung der Akteure/Organisationen: <br> 1 = Athlet <br> 2 = Trainer <br> 3 = Verein <br> 4 = Nation <br> 5 = Event <br> 6 = Region |
 | **country** | Für welches Land tritt der Athlet/Trainer an. |
@@ -45,7 +45,7 @@
 ## 3. Allgemeine Hinweise
 
 ### Fehlende Werte (NA)
-* Fehlende Werte werden als `NA` definiert. Bei der Datenerhebung das Feld einfach leer lassen; R erkennt diese *missing values* automatisch.
+* Fehlende Werte werden als `NA` definiert.
 
 ### Nicht berücksichtigte Fälle / Sonderregeln
 * **Karriereverlauf:** Pausen von Athleten werden nicht berücksichtigt. Dokumentiert werden nur der Beginn (`debut_year`) und das Ende (`last_year`) der Karriere.
