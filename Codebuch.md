@@ -29,7 +29,7 @@
 
 | Variable | Beschreibung |
 | :--- | :--- |
-| **id** | Eindeutige Identifikation jedes einzelnen Knotens.<br> Die id setzt sich aus dem Anfangsbuchstaben des Vornamen und des Anfangsbuchstaben des Nachnamen der Springer/Trainer zusammen. Wenn sich ids gedoppelt haben, wurden die letzten beiden Ziffern des Geburtsjahres ergänzt. <br> Vereine wurden jeweils durch v_vereinsname gekennzeichnet.<br> Regionen wurden mit r_regionsname gekennzeichnet. <br> Nationen wurden mit dem ISO Code gekennzeichnet.<br> Die Events haben das Kürzel oly und wc erhalten, zusammen mit den letzten beiden Ziffern des Veranstaltungsjahrs.   |
+| **id** | Eindeutige Identifikation jedes einzelnen Knotens.<br> Die id setzt sich aus dem Anfangsbuchstaben des Vornamen und des Anfangsbuchstaben des Nachnamen der Springer/Trainer zusammen. Wenn sich ids gedoppelt haben, wurden die letzten beiden Ziffern des Geburtsjahres ergänzt. <br> Vereine wurden jeweils durch v_vereinsname gekennzeichnet.<br> Regionen wurden mit r_regionsname gekennzeichnet. <br> Nationen wurden mit dem ISO Code gekennzeichnet.<br> Die Events haben das Kürzel oly und wc erhalten, zusammen mit den letzten beiden Ziffern des Veranstaltungsjahres.   |
 | **name** | Name oder Bezeichnung des Knotens. |
 | **type** | Unterscheidung der Akteure/Organisationen: <br> 1 = Athlet <br> 2 = Trainer <br> 3 = Verein <br> 4 = Nation <br> 5 = Event <br> 6 = Region |
 | **country** | Für welches Land tritt der Athlet/Trainer an. |
